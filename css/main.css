@@ -44,3 +44,22 @@ img {
   }
 
 }
+/******400******/
+@media only screen and (min-width: 25em) {
+
+  .card {
+    float: left;
+    width: 100%;
+  }
+
+  .card-img {
+    transform: none;
+    float: left;
+    margin-top: 25px;
+  }
+
+  .card-body {
+    margin-left: 65px;
+  }
+
+}
