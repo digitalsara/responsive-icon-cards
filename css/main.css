@@ -21,9 +21,19 @@ html {
   box-sizing: inherit;
 }
 
-img {
+ul {
+  text-decoration: none;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul img {
   width: 50px;
 }
+
 /******320******/
 @media only screen and (min-width: 20em) {
 
@@ -32,14 +42,14 @@ img {
     margin: 1em 0;
   }
 
-  .cards h1 {
+  ul h2 {
     font-weight: normal;
     margin-top: .75em;
     margin-bottom: 0;
     font-size: 1.5rem;
   }
 
-  .cards p {
+  ul p {
     margin: 0;
   }
 
@@ -83,7 +93,7 @@ img {
 /******980******/
 @media only screen and (min-width: 60em) {
 
-  .cards h1 {
+  .cards h2 {
     font-size: 1.6rem;
   }
 
@@ -107,7 +117,7 @@ img {
     margin: 10px;
   }
 
-  .cards h1 {
+  .cards h2 {
     margin-top: 0;
   }
 
