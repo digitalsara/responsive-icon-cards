@@ -17,21 +17,33 @@ html {
   box-sizing: inherit;
 }
 
+.cards {
+  list-style-type: none;
+  margin: 0;
+}
+
 .card {
   display: block;
 }
 
 ul {
-  text-decoration: none;
   padding: 0;
 }
 
 ul li {
-  list-style: none;
+  text-decoration: none;
 }
 
 .card-img img {
   width: 50px;
+}
+
+.card-body h2 {
+  font-weight: normal;
+}
+
+.card-body p {
+  font-weight: normal;
 }
 
 @media only screen and (min-width: 20em) {
@@ -42,7 +54,6 @@ ul li {
   }
 
   ul h2 {
-    font-weight: normal;
     margin-top: .75em;
     margin-bottom: 0;
     font-size: 1.5rem;
@@ -55,10 +66,6 @@ ul li {
 }
 
 @media only screen and (min-width: 25em) {
-
-  .cards {
-    margin: 0;
-  }
 
   .card {
     display: inline-block;
