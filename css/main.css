@@ -76,22 +76,23 @@ ul img {
 
 }
 /******650******/
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 40em) {
 
   .card {
-    display: block;
     width: 30%;
+  }
+  .card-img {
+    display: inline-block;
+    transform: translateX(60%);
   }
 
   .card-body {
+    display: block;
     margin-left: 5px;
+    position: relative;
   }
 
-  .card-img {
-    display: block;
-    float: none;
-    transform: translateX(40%);
-  }
+}
 /******980******/
 @media only screen and (min-width: 60em) {
 
