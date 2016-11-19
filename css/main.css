@@ -23,10 +23,14 @@ html {
 
 img {
   width: 50px;
-  margin: 20px;
+}
+
+.card-img {
+  transform: translateX(40%);
 }
 
 h1 {
   font-weight: normal;
   margin: 0;
+  font-size: 1.5rem;
 }
