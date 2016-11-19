@@ -112,3 +112,13 @@ img {
   }
 
 }
+
+@media only screen and (min-width: 90em) {
+
+  .card {
+    float: left;
+    width: 30%;
+  }
+
+
+}
