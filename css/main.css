@@ -58,18 +58,20 @@ ul img {
 @media only screen and (min-width: 25em) {
 
   .card {
-    float: left;
+    display: inline-block;
     width: 100%;
   }
 
   .card-img {
     transform: none;
-    float: left;
+    display: inline-block;
     margin-top: 25px;
   }
 
   .card-body {
-    margin-left: 65px;
+    margin-left: 20px;
+    display: inline-block;
+    position: absolute;
   }
 
 }
