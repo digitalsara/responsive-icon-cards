@@ -109,19 +109,14 @@ ul img {
 @media only screen and (min-width: 87em) {
 
   .card {
-    float: left;
+    display: inline-block;
     width: 30%;
   }
 
   .card-img {
-    transform: none;
-    float: left;
-    padding: 0 10px;
-    margin: 10px;
-  }
-
-  .cards h2 {
-    margin-top: 0;
+    transform: translateX(300%);
+    display: inline-block;
+    margin-top: 25px;
   }
 
 }
@@ -132,6 +127,5 @@ ul img {
     float: left;
     width: 30%;
   }
-
 
 }
