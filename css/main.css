@@ -24,13 +24,23 @@ html {
 img {
   width: 50px;
 }
+/******320******/
+@media only screen and (min-width: 20em) {
 
-.card-img {
-  transform: translateX(40%);
-}
+  .card-img {
+    transform: translateX(40%);
+    margin: 1em 0;
+  }
 
-h1 {
-  font-weight: normal;
-  margin: 0;
-  font-size: 1.5rem;
+  .cards h1 {
+    font-weight: normal;
+    margin-top: .75em;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+  }
+
+  .cards p {
+    margin: 0;
+  }
+
 }
