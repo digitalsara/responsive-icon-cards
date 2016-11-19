@@ -81,4 +81,14 @@ img {
     transform: translateX(40%);
   }
 
+@media only screen and (min-width: 60em) {
+
+  .cards h1 {
+    font-size: 1.6rem;
+  }
+
+  .cards p {
+    font-size: 1.1rem;
+  }
+
 }
